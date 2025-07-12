@@ -112,7 +112,9 @@ h2.card-title{
 h3.subs{
     color: #4E47FF;
     font-size: 80px;
-    padding: -200px;
+    padding: -400px;
+    margin: 20px;
+    margin-top: 50px;
 }
 .user-1{
     margin-top: -100px;
@@ -120,7 +122,8 @@ h3.subs{
 p.dark-3{
     margin-top: -80px;
     color: #474747;
-    padding: 120px;
+    padding: 60px;
+    margin-right: 0px;
 }
 /* Reset & Box Sizing */
 * {
