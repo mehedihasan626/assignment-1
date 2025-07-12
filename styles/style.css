@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: "Inter", sans-serif;
     background: #f1f2f6;
 }
 
@@ -75,4 +75,20 @@ height: 598px;
     /* font-weight: 10px; */
     font-size: 24px;
     text-shadow: 5px 5px 5px #474747;
+}
+
+.main{
+    background-color: rgb(205, 202, 202);
+    /* width: 1140px; */
+    height: 306px ;
+    align-content: center;
+    margin: 60px;
+}
+.users{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+.main-heading{
+    text-align: center;
 }
