@@ -86,9 +86,172 @@ height: 598px;
 }
 .users{
     display: flex;
-    gap: 40px;
-    text-align: center;
+    gap: 130px;
+    justify-content: center;
+    margin: 30px;
+    /* text-align: center; */
 }
 .main-heading{
+    margin-top: 40px;
     text-align: center;
+}
+.card{
+    background-color: #cccaca;
+    /* width: 1140px; */
+    justify-content: center;
+    margin: 60px;
+    height: 250px;
+    border-radius: 30px;
+}
+h2.card-title{
+    text-align: center;
+    margin-top: 100px;
+    padding: 30px;
+    font-size: 35px;
+}
+h3.subs{
+    color: #4E47FF;
+    font-size: 80px;
+    padding: -200px;
+}
+.user-1{
+    margin-top: -100px;
+}
+p.dark-3{
+    margin-top: -80px;
+    color: #474747;
+    padding: 120px;
+}
+/* Reset & Box Sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Section Wrapper */
+.contact-section {
+  display: flex;
+  /* gap: 40px; */
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background: white;
+}
+
+/* Container for hero + form */
+.contact-container {
+  display: flex;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Left Hero */
+.contact-hero {
+  flex: 1;
+  padding: 4rem;
+  background-color: #f5f7ff;
+}
+.contact-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111;
+}
+
+/* Right Form */
+.contact-form {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+ border-radius: 6px;
+  background-color: #fff;
+  transition: border-color 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #5c5cff;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+/* Submit Button */
+.contact-form button {
+  margin-top: 2rem;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  background-color: #5c5cff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.contact-form button:hover {
+  background-color: #4b4bd1;
+}
+
+footer {
+  text-align: center;
+  padding: 4rem 1rem 3rem;
+  background-color: #fff;
+  color: #888;
+}
+
+.footer .logo {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #4b4bff;
+  margin-bottom: 1rem;
+}
+
+.footer-text {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #999;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #666;
+  font-size: 0.95rem;
+  transition: color 0.2s;
 }
